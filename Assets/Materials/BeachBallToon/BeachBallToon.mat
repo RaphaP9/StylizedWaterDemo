@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StylizedWaterMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 8f3a67a49d87659448b5e74270de78af, type: 3}
+  m_Name: BeachBallToon
+  m_Shader: {fileID: -6465566751694194690, guid: d394159e45394a348a2cc16805393775, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USEWATERDISTORTION
+  - _USEMAINLIGHT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -65,28 +65,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_b2c4865b06b94d8c89c8af6672b6bb10_Texture_1_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SurfaceDistortion:
-        m_Texture: {fileID: 2800000, guid: 0bfc3fb0dc2845148a7c98753abf2fe9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SurfaceNoise:
-        m_Texture: {fileID: 2800000, guid: 536dc2fd0c5c12246bce576f3a824857, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_ea1ef2868dba41609d3cb18a1f5d7725_Out_0_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 0bfc3fb0dc2845148a7c98753abf2fe9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _WaterDistortionNoise:
-        m_Texture: {fileID: 2800000, guid: 536dc2fd0c5c12246bce576f3a824857, type: 3}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 2f64effcbe8cc7440b03fd30d8f4781e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -106,82 +90,54 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _AmbientLightIntensity: 1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthFoamCutoff: 8
-    - _DepthFoamDistanceCutoff: 8
-    - _DepthFoamNormalsAmplification: 4
-    - _DepthMaxDistance: 1
-    - _DepthNoiseCutoff: 8
-    - _DepthNormalFoamAmplification: 4
-    - _DepthNormalsFoamAmplification: 4
+    - _DarkSideMinimumLightMultiplier: 0.15
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FoamDistortionAmount: 0.1
-    - _FoamDistortionScale: 3
-    - _FoamMaxDistance: 0.4
-    - _FoamMinDistance: 0.05
-    - _FoamNoiseCutoff: 0.925
-    - _FoamNoiseScale: 10
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LightingBands: 1
+    - _LightingBandsBias: 1
+    - _LightingLiftFactor: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RippleFoamCutoff: 0.925
-    - _RippleNoiseCutoff: 0.925
+    - _SampleGI: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _SurfaceDistortionAmount: 0.2
-    - _SurfaceNoiseCutoff: 0.7
-    - _USEWATERDISTORTION: 1
-    - _WaterDepthMaxDistortion: 1
-    - _WaterDepthMinDistortion: 0.5
-    - _WaterDistortionAmount: 0.1
-    - _WaterDistortionNoiseScale: 5
-    - _WaterDistortionSpeed: 0.05
-    - _WaterDistortionStrength: 0.1
-    - _WavesAmplitude: 0.015
-    - _WavesNoiseScale: 2
-    - _WavesSpeed: 0.1
+    - _USEADDITIONALLIGHTS: 0
+    - _USEADDITIONALLIGHTSSHADOWS: 0
+    - _USEMAINLIGHT: 1
+    - _USEMAINLIGHTSHADOWS: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0, g: 0.114498615, b: 1, a: 0.8627451}
+    - _Color: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
-    - _FoamDistortionTiling: {r: 1, g: 0.5, b: 0, a: 0}
-    - _FoamNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
-    - _FoamNoiseTiling: {r: 0.5, g: 1.5, b: 0, a: 0}
-    - _ShallowColor: {r: 0, g: 0.7454543, b: 1, a: 0.6862745}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SurfaceDistortionTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _SurfaceNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
-    - _SurfaceNoiseTiling: {r: 0.3, g: 0.9, b: 0, a: 0}
-    - _WaterDistortionNoiseTiling: {r: 0, g: 0, b: 0, a: 0}
-    - _WaterDistortionScrollAmount: {r: 0.05, g: 0.05, b: 0, a: 0}
-    - _WaterDistortionTiling: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3192130934033331296
+--- !u!114 &6105692541656802491
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
