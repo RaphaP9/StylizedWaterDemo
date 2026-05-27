@@ -113,9 +113,9 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _DepthFoamCutoff: 8
-    - _DepthFoamDistanceCutoff: 8
-    - _DepthFoamNormalsAmplification: 4
+    - _DepthFoamCutoff: 0.875
+    - _DepthFoamDistanceCutoff: 0.875
+    - _DepthFoamNormalsAmplification: 3
     - _DepthMaxDistance: 1
     - _DepthNoiseCutoff: 8
     - _DepthNormalFoamAmplification: 4
@@ -171,7 +171,7 @@ Material:
     - _FoamDistortionTiling: {r: 1, g: 0.5, b: 0, a: 0}
     - _FoamNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
     - _FoamNoiseTiling: {r: 0.5, g: 1.5, b: 0, a: 0}
-    - _ShallowColor: {r: 0, g: 0.7454543, b: 1, a: 0.6862745}
+    - _ShallowColor: {r: 0, g: 0.7454543, b: 1, a: 0.78431374}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SurfaceDistortionTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _SurfaceNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
