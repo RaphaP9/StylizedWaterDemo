@@ -17,7 +17,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -165,9 +165,9 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepColor: {r: 0, g: 0.114498615, b: 1, a: 0.8627451}
+    - _DeepColor: {r: 0, g: 0.121106625, b: 1, a: 0.9019608}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - _FoamColor: {r: 5.9921575, g: 5.9921575, b: 5.9921575, a: 1}
     - _FoamDistortionTiling: {r: 1, g: 0.5, b: 0, a: 0}
     - _FoamNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
     - _FoamNoiseTiling: {r: 0.5, g: 1.5, b: 0, a: 0}
@@ -177,7 +177,7 @@ Material:
     - _SurfaceNoiseScrollAmount: {r: -0.05, g: -0.05, b: 0, a: 0}
     - _SurfaceNoiseTiling: {r: 0.3, g: 0.9, b: 0, a: 0}
     - _WaterDistortionNoiseTiling: {r: 0, g: 0, b: 0, a: 0}
-    - _WaterDistortionScrollAmount: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _WaterDistortionScrollAmount: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _WaterDistortionTiling: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

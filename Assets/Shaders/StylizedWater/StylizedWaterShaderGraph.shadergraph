@@ -3399,7 +3399,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 2.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -4327,7 +4327,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 0.10000000149011612,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -4647,7 +4647,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 0.25,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -5380,7 +5380,7 @@
     "m_Title": "Foam Distortion Noise",
     "m_Position": {
         "x": -12182.9990234375,
-        "y": 438.00006103515627
+        "y": 438.0
     }
 }
 
@@ -5525,7 +5525,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.10000000149011612,
+    "m_Value": 0.029999999329447748,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -5991,9 +5991,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 1.0,
-        "g": 1.0,
-        "b": 1.0,
+        "r": 5.992157459259033,
+        "g": 5.992157459259033,
+        "b": 5.992157459259033,
         "a": 1.0
     },
     "isMainColor": false,
@@ -6265,8 +6265,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
+        "x": 0.5,
+        "y": 0.5,
         "z": 0.0,
         "w": 0.0
     }
@@ -6674,8 +6674,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
+        "x": 0.10000000149011612,
+        "y": 0.10000000149011612,
         "z": 0.0,
         "w": 0.0
     }
@@ -7086,7 +7086,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 8.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -7552,10 +7552,10 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.2594339847564697,
-        "g": 0.654402494430542,
+        "r": 0.0,
+        "g": 0.7450980544090271,
         "b": 1.0,
-        "a": 1.0
+        "a": 0.686274528503418
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -7764,7 +7764,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 10.0,
+    "m_Value": 3.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 1.0,
@@ -8353,7 +8353,7 @@
     "m_Title": "Water Color",
     "m_Position": {
         "x": -9784.9990234375,
-        "y": -543.0
+        "y": -542.9998168945313
     }
 }
 
@@ -8511,7 +8511,7 @@
     "m_Title": "Distorted Color Construction",
     "m_Position": {
         "x": -7901.99951171875,
-        "y": -471.99993896484377
+        "y": -471.9998779296875
     }
 }
 
@@ -8546,7 +8546,7 @@
     "m_Title": "Foam Construction",
     "m_Position": {
         "x": -8853.9990234375,
-        "y": 28.999942779541017
+        "y": 28.999996185302736
     }
 }
 
@@ -9635,7 +9635,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 0.925000011920929,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -9664,8 +9664,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 0.009999999776482582,
-        "y": 0.009999999776482582,
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
         "z": 0.0,
         "w": 0.0
     }
@@ -9928,7 +9928,7 @@
     "m_Title": "Undistorted Depth Fade",
     "m_Position": {
         "x": -12700.9990234375,
-        "y": -246.99996948242188
+        "y": -247.0
     }
 }
 
@@ -10291,10 +10291,10 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.1735493242740631,
-        "g": 0.2214137315750122,
-        "b": 0.5660377740859985,
-        "a": 1.0
+        "r": 0.0,
+        "g": 0.12156862765550614,
+        "b": 1.0,
+        "a": 0.9019607901573181
     },
     "isMainColor": false,
     "m_ColorMode": 0
@@ -10422,7 +10422,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 4.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 1.0,
@@ -10477,7 +10477,7 @@
     "m_Title": "Depth Foam",
     "m_Position": {
         "x": -10998.9990234375,
-        "y": -52.000057220458987
+        "y": -51.999755859375
     }
 }
 
@@ -11461,7 +11461,7 @@
     "m_Title": "Foam Noise",
     "m_Position": {
         "x": -10758.9990234375,
-        "y": 436.00006103515627
+        "y": 436.00018310546877
     }
 }
 
@@ -11525,8 +11525,8 @@
     "m_ObjectId": "b26a51df5c8645c999348db68bede342",
     "m_Title": "Distorted Depth Fade",
     "m_Position": {
-        "x": -10502.9990234375,
-        "y": -497.9999694824219
+        "x": -10503.0,
+        "y": -497.9998779296875
     }
 }
 
@@ -12793,7 +12793,7 @@
     "m_Title": "Dsitorted Screen Position",
     "m_Position": {
         "x": -13377.9990234375,
-        "y": -756.9999389648438
+        "y": -756.9998779296875
     }
 }
 
@@ -13410,7 +13410,7 @@
     "m_ObjectId": "dee3f2d91c234445a31a2f569bf6bf87",
     "m_Title": "Ripple Foam",
     "m_Position": {
-        "x": -9360.9990234375,
+        "x": -9361.0,
         "y": 534.0
     }
 }
@@ -14031,8 +14031,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
+        "x": 5.0,
+        "y": 5.0,
         "z": 0.0,
         "w": 0.0
     }
@@ -14896,8 +14896,8 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
+        "x": 0.5,
+        "y": 0.5,
         "z": 0.0,
         "w": 0.0
     }
@@ -15123,7 +15123,7 @@
     "m_Title": "Undistorted Color Construction",
     "m_Position": {
         "x": -7898.99951171875,
-        "y": 72.99993896484375
+        "y": 73.00000762939453
     }
 }
 
